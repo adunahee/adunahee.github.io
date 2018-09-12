@@ -1,6 +1,7 @@
 #container{
   color:DarkOliveGreen;
-  background-color: Linen, cover;
+  background-color: Linen;
+  background-size: cover;
 }
 
 #contact-header{
