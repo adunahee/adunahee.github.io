@@ -2,6 +2,7 @@
   color:DarkOliveGreen;
   background-color: Linen;
   background-size: cover;
+margin: 20px;
 }
 
 #headshot {
@@ -14,11 +15,13 @@
 	margin-left: 20px;
 }
 
-p {
-
+.resume-sections{
+	border: 2px solid rgb(46,105,163);
+	margin-top: 5px;
+	padding: 10px;
 }
 
-#olists{
-font.size: 2em;
+.olists{
+font.size: 2rem;
 }
 
