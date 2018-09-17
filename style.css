@@ -9,14 +9,16 @@
 }
 
 #contact-header{
-  
+  display: inline;
+	margin: 5px;
+	margin-left: 20px;
 }
 
 p {
 
 }
 
-#list.jobs{
-font.size: 1.5em;
+.olists{
+font.size: 2em;
 }
 
