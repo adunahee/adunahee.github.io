@@ -1,8 +1,8 @@
 #container{
   color:DarkOliveGreen;
-  background-color: Linen;
-  background-size: cover;
 margin: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 #headshot {
@@ -11,16 +11,19 @@ margin: 20px;
 	margin: 10px;
 }
 
-#contact-header{
+.contact-header{
   display: inline;
 	margin: 5px;
 	margin-left: 20px;
+	color: rgb(46,105,163);
 }
 
 .resume-sections{
-	border: 2px solid rgb(46,105,163);
+	border: 2px solid DarkOliveGreen;
 	margin: 10px;
 	padding: 10px;
+	background-color: Linen;
+  	background-size: cover;
 }
 
 .resume-aboutme{
@@ -29,4 +32,6 @@ margin: 20px;
 	padding: 10px;
 	color: rgb(46,105,163);
 	justify-content: center;
+	background-color: Linen;
+  	background-size: cover;
 }
