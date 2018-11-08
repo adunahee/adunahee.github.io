@@ -1,52 +1,72 @@
 #container{
   color: #36454f;
-margin: 25px;
-	margin-left: 75px;
-	margin-right: 75px;
+  margin: 0px 10% 25px 10%;
 }
 
 #headshot {
-	float: right;
-	border: 3px solid #FFFFFF;
-	margin: 10px;
-	margin-right: 80px;
+  float: right;
+  border: 3px solid #FFFFFF;
+  margin: 10px;
+  margin-right: 80px;
   height: 180px;
   width: 180px;
 }
 
+.contactHeader ul{
+  list-style: none;
+  padding: 0px;
+}
+
+.contactHeader ul li {
+  display: inline;
+  margin-right: 5px;
+}
+
+.navMain ul{
+  list-style: none;
+    padding: 0px;
+}
+
+.navMain ul li{
+    display: inline;
+}
+
+.navMain ul li a{
+  text-decoration: none;
+  color: rgb(46,105,163);
+}
 .navLinks{
-margin-right: 5px;
+  margin-right: 5px;
 }
 .contactHeader{
   display: inline;
-	margin: 5px;
-	margin-left: 20px;
-	color: black;
+  margin: 0px 20px 5px 5px;
+  margin-left: 20px;
+  color: black;
   padding-bottom: 100px;
 }
 
+h4 {
+  margin: 10px;
+  display: block;
+}
+
 .resumeSections{
-	border: 2px solid DarkOliveGreen;
-	margin: 10px;
-	padding: 10px;
-	background-color: Linen;
-  	background-size: cover;
+  border: 2px solid DarkOliveGreen;
+  margin: 10px;
+  padding: 10px;
+  background-color: Linen;
+  background-size: cover;
 }
 
 .resumeAboutMe{
-	border: 2px solid rgb(46,105,163);
-	margin: 10px;
-	padding: 10px;
-	color: rgb(46,105,163);
-	justify-content: center;
-	background-color: Linen;
-  	background-size: cover;
+  border: 2px solid rgb(46,105,163);
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+  background-color: Linen;
+  background-size: cover;
 }
 h1 {
-margin-bottom:	-10px;
-font-size: 2em;
-}
-
-h4 {
-margin-bottom: -10px;
+  margin-bottom:	-10px;
 }
