@@ -1,8 +1,8 @@
 #container{
-  color:DarkOliveGreen;
+  color: #36454f;
 margin: 25px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 75px;
+	margin-right: 75px;
 }
 
 #headshot {
@@ -10,17 +10,22 @@ margin: 25px;
 	border: 3px solid #FFFFFF;
 	margin: 10px;
 	margin-right: 80px;
-	margin-bottom: 80px;
+  height: 180px;
+  width: 180px;
 }
 
-.contact-header{
+.navLinks{
+margin-right: 5px;
+}
+.contactHeader{
   display: inline;
 	margin: 5px;
 	margin-left: 20px;
 	color: black;
+  padding-bottom: 100px;
 }
 
-.resume-sections{
+.resumeSections{
 	border: 2px solid DarkOliveGreen;
 	margin: 10px;
 	padding: 10px;
@@ -28,7 +33,7 @@ margin: 25px;
   	background-size: cover;
 }
 
-.resume-aboutme{
+.resumeAboutMe{
 	border: 2px solid rgb(46,105,163);
 	margin: 10px;
 	padding: 10px;
@@ -37,10 +42,11 @@ margin: 25px;
 	background-color: Linen;
   	background-size: cover;
 }
-h2 {
+h1 {
 margin-bottom:	-10px;
+font-size: 2em;
 }
 
 h4 {
-margin-bottom: -10px;	
+margin-bottom: -10px;
 }
